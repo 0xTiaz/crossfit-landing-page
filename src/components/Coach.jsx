@@ -7,7 +7,7 @@ export const Coach = () => {
       edad: "",
       posicion: "",
       objetivo: "",
-      perfil: "./public/coachmichel.jpg",
+      perfil: "/coachmichel.jpg",
     },
     {
       nombre: "Reynaldo",
@@ -16,7 +16,7 @@ export const Coach = () => {
       edad: "",
       posicion: "",
       objetivo: "",
-      perfil: "./public/coachreyna.jpg",
+      perfil: "/coachreyna.jpg",
     },
     {
       nombre: "Guillermo",
@@ -25,7 +25,7 @@ export const Coach = () => {
       edad: "",
       posicion: "",
       objetivo: "",
-      perfil: "./public/coachmemo.jpg",
+      perfil: "/coachmemo.jpg",
     },
   ];
   return (

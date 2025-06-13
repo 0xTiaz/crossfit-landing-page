@@ -1,9 +1,9 @@
 import { Check } from "lucide-react";
 
 const disciplinas = [
-  { nombre: "Muai Thai", category: "contacto", imagen: "./public/carousel2.jpg", href: ""},
-  { nombre: "Karate", category: "contacto", imagen: "./public/carousel3.jpg", href: "" },
-  { nombre: "Kick Boxing", category: "contacto", imagen: "./public/carousel4.jpg", href: "" },
+  { nombre: "Muai Thai", category: "contacto", imagen: "/carousel2.jpg", href: ""},
+  { nombre: "Karate", category: "contacto", imagen: "/carousel3.jpg", href: "" },
+  { nombre: "Kick Boxing", category: "contacto", imagen: "/carousel4.jpg", href: "" },
 ];
 
 export const Disciplinas = () => {

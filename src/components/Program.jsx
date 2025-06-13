@@ -16,12 +16,12 @@ export const Program = () => {
         </h2>
         <div className="mb-12 overflow-hidden">
           <img
-            src="./public/carousel1.jpg"
+            src="/carousel1.jpg"
             alt="Crossfit Bullbox Team"
             className=" w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 rounded-lg"
           />
         </div>
-        <div className="flex flex-col w-full h-full p-6 justify-center card-hover">
+        <div className="flex flex-col w-full h-full p-8 justify-center card-hover">
           <h3 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Clases
           </h3>
