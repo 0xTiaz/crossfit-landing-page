@@ -7,6 +7,7 @@ const navItems = [
   { name: "Profesores", href: "#coach" },
   { name: "Programa", href: "#program" },
   { name: "Planes", href: "#plans" },
+  { name: "Disciplinas", href: "#disciplines" },
   { name: "Contacto", href: "#contact" },
 ];
 

@@ -7,7 +7,7 @@ export const Coach = () => {
       edad: "",
       posicion: "",
       objetivo: "",
-      perfil: "./public/static/images/coachmichel.jpg",
+      perfil: "./public/coachmichel.jpg",
     },
     {
       nombre: "Reynaldo",
@@ -16,7 +16,7 @@ export const Coach = () => {
       edad: "",
       posicion: "",
       objetivo: "",
-      perfil: "./public/static/images/coachreyna.jpg",
+      perfil: "./public/coachreyna.jpg",
     },
     {
       nombre: "Guillermo",
@@ -25,13 +25,13 @@ export const Coach = () => {
       edad: "",
       posicion: "",
       objetivo: "",
-      perfil: "./public/static/images/coachmemo.jpg",
+      perfil: "./public/coachmemo.jpg",
     },
   ];
   return (
     <section id="coach" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text=3xl md:text-4xl font-bold mb-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Nuestros <span className="text-primary">Profesores</span>
         </h2>
         <div className="flex justify-center gap-2">

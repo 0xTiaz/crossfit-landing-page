@@ -4,6 +4,7 @@ import { Banner } from "../components/Banner";
 import { Clases } from "../components/Clases";
 import { Coach } from "../components/Coach";
 import { Contactanos } from "../components/Contactanos";
+import { Disciplinas } from "../components/Disciplinas";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 import { Program } from "../components/Program";
@@ -23,6 +24,7 @@ export const Home = () => {
         <Coach />
         <Program />
         <Clases />
+        <Disciplinas />
         <Contactanos />
       </main>
       {/* Footer */}
