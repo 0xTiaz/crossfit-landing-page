@@ -18,7 +18,7 @@ export const Clases = () => {
           </div>
           <div className="p-4 w-full h-100 card-hover rounded-lg">
             <h3 className="text-3xl md:text-4xl">Horarios</h3>
-            <ul className="h-full flex flex-col text-center">
+            <ul className="h-full flex flex-col justify-center text-center">
               <li>Lunes a Viernes - 6:30 hrs.</li>
               <li>Lunes a Viernes - 19:00 y 20:00 hrs.</li>
             </ul>
