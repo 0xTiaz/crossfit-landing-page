@@ -14,31 +14,29 @@ export const Program = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Nuestro <span className="text-primary">Programa</span>
         </h2>
-        <div className="p-8 flex card-hover space-y-4 space-x-4 justify-around">
-          <div className="overflow-hidden">
-            <img
-              src="./public/carousel1.jpg"
-              alt="Crossfit Bullbox Team"
-              className="object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-          </div>
-          <div className="flex flex-col w-100 justify-center text-center">
-            <h3 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-              Clases
-            </h3>
-            <p className="text-lg w-100 text-justify">
-              Nuestras clases estan compuestas de bloques especificos para cada
-              rutina, dentro de las cuales nos preparamos fisicamente antes de
-              ejecutar el ejercicio.
-            </p>
-            {routines.map((clases) => (
-              <div className="mt-4">
-                <p className="flex text-xl">
-                  <Dot /> {clases.nombre}
-                </p>
-              </div>
-            ))}
-          </div>
+        <div className="mb-12 overflow-hidden">
+          <img
+            src="./public/carousel1.jpg"
+            alt="Crossfit Bullbox Team"
+            className=" w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col w-full h-full p-6 justify-center card-hover">
+          <h3 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Clases
+          </h3>
+          <p className="text-md md:text-xl lg:text-2xl text-justify text-muted-foreground">
+            Nuestras clases estan compuestas de bloques especificos para cada
+            rutina, dentro de las cuales nos preparamos fisicamente antes de
+            ejecutar el ejercicio.
+          </p>
+          {routines.map((clases) => (
+            <div className="mt-4">
+              <p className="flex text-xl">
+                <Dot /> {clases.nombre}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -3,23 +3,23 @@ import { ArrowDown } from "lucide-react";
 export const Banner = () => {
 
   return (
-    <section id="cross" className="relative min-h-screen flex items-center">
+    <section id="cross" className="relative min-h-screen flex flex-col items-center justify-center px-4">
       <div className="container h-150 flex items-center p-6">
         <div className="max-w-screen flex justify-around">
-          <div className="flex justify-center overflow-hidden w-100 h-100">
+          {/* <div className="flex justify-center overflow-hidden w-100 h-100">
             <img
               src=".\public\logo.png"
               alt="Bullbox Logo"
               className="shaddow-xs object-cover transition-transform duration-500 group-hover:scale-110 opacity-0 animate-fade-in"
             />
-          </div>
+          </div> */}
         </div>
         <div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-start opacity-0 animate-fade-in-delay-1">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-start opacity-0 animate-fade-in-delay-1">
             Somos
             <span className="text-primary font-bold"> Bullbox 365</span>
           </h1>
-          <p className="text-secondary fond-normal text-2xl text-start opacity-0 animate-fade-in-delay-2">
+          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             Un centro de crossfit, en donde utilizamos las tecnicas optimas de
             aprendizaje para la mecanizacion de diferentes ejercicios.
           </p>
