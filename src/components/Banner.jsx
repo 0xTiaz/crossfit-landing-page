@@ -8,7 +8,7 @@ export const Banner = () => {
         <div className="max-w-screen flex justify-around">
           <div className="flex justify-center overflow-hidden w-100 h-100">
             <img
-              src="./public/img/logo.png"
+              src="./public/static/images/logo.png"
               alt=""
               className="shaddow-xs object-cover transition-transform duration-500 group-hover:scale-110 opacity-0 animate-fade-in"
             />

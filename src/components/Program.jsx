@@ -17,7 +17,7 @@ export const Program = () => {
         <div className="p-8 flex card-hover space-y-4 space-x-4 justify-around">
           <div className="overflow-hidden">
             <img
-              src="./public/img/carousel/carousel1.jpg"
+              src="./public/static/images/carousel1.jpg"
               alt=""
               className="object-cover transition-transform duration-500 group-hover:scale-110"
             />
