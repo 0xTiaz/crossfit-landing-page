@@ -1,7 +1,7 @@
 
 import { BackEffects } from "../components/BackEffect";
 import { Banner } from "../components/Banner";
-import { Clases } from "../components/Clases";
+import { Clases } from "../components/clases";
 import { Coach } from "../components/Coach";
 import { Contactanos } from "../components/Contactanos";
 import { Footer } from "../components/Footer";
