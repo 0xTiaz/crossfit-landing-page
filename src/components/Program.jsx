@@ -16,7 +16,7 @@ export const Program = () => {
         </h2>
         <div className="mb-12 overflow-hidden">
           <img
-            src="./public/carousel1.jpg"
+            src="/carousel1.jpg"
             alt="Crossfit Bullbox Team"
             className=" w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 rounded-lg"
           />
