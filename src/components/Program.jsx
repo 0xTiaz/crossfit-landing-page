@@ -18,7 +18,7 @@ export const Program = () => {
           <div className="overflow-hidden">
             <img
               src="./public/static/images/carousel1.jpg"
-              alt=""
+              alt="Crossfit Bullbox Team"
               className="object-cover transition-transform duration-500 group-hover:scale-110"
             />
           </div>
